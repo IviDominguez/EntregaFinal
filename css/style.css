@@ -721,7 +721,11 @@
     margin: 3rem 0 6rem 0;
 
 }
-
+.FondoMates2{
+    border: solid 1px rgb(178, 168, 159);
+    border-radius: 12px;
+    background-color: rgb(178, 168, 159);
+}
 .sectionMatesParrafo{
     display: flex;
     flex-direction: row;
@@ -751,14 +755,16 @@
     gap: 4rem;
 }
 .carpincho{
-    border: solid 6px rgb(207, 98, 11);
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 1rem 0 0 1rem;
+    background-color: rgb(207, 98, 11);
 }
 .chancho{
-    border: solid 6px rgb(207, 98, 11);
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 0 0 1rem 1rem;
+    background-color: rgb(207, 98, 11);
 }
 
 .divBabyYoda{
@@ -770,14 +776,16 @@
     gap: 4rem;
 }
 .yoda2{
-    border: solid 6px rgb(207, 98, 11);
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 1rem 1rem 0 0;
+    background-color: rgb(207, 98, 11);
 }
 .yoda3{
-    border: solid 6px rgb(207, 98, 11);
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 0 1rem 1rem 0;
+    background-color: rgb(207, 98, 11);
 }
 .divYodaParrafo{
     width: 35rem;
@@ -809,7 +817,11 @@
     align-items: center;
     margin: 3rem 0 6rem 0;
 }
-
+.lamp6{
+    border: solid 1px rgb(178, 168, 159);
+    border-radius: 12px;
+    background-color: rgb(178, 168, 159);
+}
 .sectionTexto1{
     display: flex;
     flex-direction: row;
@@ -819,9 +831,10 @@
     margin: 4rem 0 4rem 6rem;
 }
 .lamp4{
-    border: solid 6px rgb(207, 98, 11);
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 0 1rem 1rem 0;
+    background-color: rgb(207, 98, 11);
 }
 .divTexto1{
     width: 30rem;
@@ -866,9 +879,10 @@ h3{
     margin: 4rem 6rem 4rem 0;
 }
 .lamp3{
-    border: solid 6px rgb(207, 98, 11);
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 1rem 0 0 1rem;
+    background-color: rgb(207, 98, 11);
 }
 .sectionTexto3{
     display: flex;
@@ -880,9 +894,10 @@ h3{
     margin: 8rem 0 6rem 6rem;
 }
 .lamparas3{
-    border: solid 6px rgb(207, 98, 11);
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 0 1rem 1rem 0;
+    background-color: rgb(207, 98, 11);
 }
 .divTexto3{
     width: 34rem;
@@ -905,6 +920,11 @@ h3{
     justify-content: center;
     align-items: center;
     margin: 3rem 0 6rem 0;
+}
+.tenedores{
+    border: solid 1px rgb(178, 168, 159);
+    border-radius: 12px;
+    background-color: rgb(178, 168, 159);
 }
 .sectionMatriz{
     display: flex;
@@ -931,14 +951,16 @@ h3{
     gap: 4rem;
 }
 .tenedor1{
-    border: solid 6px black;
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 1rem 0 0 1rem;
+    background-color: black;
 }
 .tenedor2{
-    border: solid 6px black;
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     padding: 0 0 1rem 1rem;
+    background-color: black;
 }
 .divCarousel{
     margin: 3rem 0 3rem 7rem;
@@ -950,9 +972,10 @@ h3{
     justify-content: flex-end;
 }
 .divCarousel{
-    border: solid 6px black;
+    border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
-    padding: 6px;
+    padding: 0 0 1rem 1rem;
+    background-color: black;
 }
 .parrafoCopa{
     width: 55rem;
