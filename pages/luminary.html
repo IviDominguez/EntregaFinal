@@ -22,6 +22,9 @@
 <!--iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+<!--css AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!--CSS-->    
     <link rel="stylesheet" href="../css/style.css">    
 
@@ -32,7 +35,7 @@
     <div class="container__general">
 
 <!--header-->
-        <header class=" header ">
+        <header class="header">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand logo" href="../index.html"><img src="../img/logoweb1.svg" alt="Federico Amigo" width="60" height="60"></a>
@@ -64,34 +67,44 @@
 
         </header>
 
-        <main class="main-luminaria">
-            <div>
+        <main>
+            <div class="divLuminaria">
                 <img src="../img/lamp6.jpg" alt="">
             </div>
         </main>
 
-        <section>
-            <div class="divLamparasParrafo">
-                <p>Proyecto personal de lamparas de pie. </p>
+
+        <section class="sectionTexto1">
+            <div class="divLamparas1">
+                <img class="lamp4" src="../img/lamp4.jpg" alt="">
             </div>
-            <div class="divLamparas">
-               <img src="../img/lamp4.jpg" alt="">
-               <img src="../img/lamp3.jpg" alt="">
-               
+            <div data-aos="fade-left" class="divTexto1">
+                <h3>PROYECTO PERSONAL.</h3>
+                <p>MANTENIENDO UN ESTILO INDUSTRIAL EN EL DISEÑO DE LUMINARIA SE TRABAJO CON MATERIALES ESTANDAR DEL MERCADO.</p>
+            </div>
+
+        </section>
+
+
+        <section class="sectionTexto2">
+            <div data-aos="fade-right" class="divTexto2">
+                <p>EL ARMADO, ENSAMBLADO Y PINTADO DE LA TOTALIDAD DEL PRODUCTO SE REALIZA DE FORMA MANUAL.</p>
+            </div>
+            <div class="divLamparas2">
+               <img class="lamp3" src="../img/lamp3.jpg" alt="">
             </div>
         </section>
 
-        <section>
-            <div>
-                <p>...</p>
+
+        <section class="sectionTexto3">
+            <div class="divLamparas3">
+                <img class="lamparas3" src="../img/lamparas3.jpg" alt="">
+            </div>
+            <div data-aos="fade-left" class="divTexto3">
+                <p>LA FLEXIBILIDAD DE LA IMPRESION 3D LOGRO CREAR VINCULOS Y AGARRES DIFICILES DE OBTENER POR OTROS PROCESOS PRODUCTIVOS.</p>
             </div>
         </section>
 
-        <section>
-            <div>
-                <img src="../img/lamparas3.jpg" alt="">
-            </div>
-        </section>
 
 
 
@@ -111,12 +124,19 @@
                             <li class="instagram"><a href="https://www.instagram.com/fede.amigo/?hl=es-la" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </nav>
+                    <div>
+                        <p>TODOS LOS DERECHOS RESERVADOS | IVIDS@GMAIL.COM</p>
+                    </div>
                 </div>
             </div>
     
         </footer>
 
-
+<!--SCRIPT AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
 <!--SCRIPTS BS-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

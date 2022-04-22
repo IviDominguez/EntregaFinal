@@ -10,38 +10,6 @@
 
 /*INDEX*/
 /* header */
-/*.header{
-    background-color: rgb(235, 235, 235);
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    height: 120px;
-    border: 2px solid rgb(252, 160, 74);
-}
-
-.barra li{
-    list-style-type: none;
-}
-.barra li a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 8px; 
-}
-.hover a:hover{
-    background-color: rgb(252, 160, 74);
-    color: white;
-    border: 2px solid rgb(252, 160, 74);
-    border-radius: 20px;
-    padding: 8px;  
-    
-}*/
-
 /*NAVBAR BS*/
 .navBar-modificada{
     background-color: rgb(178, 168, 159);
@@ -50,7 +18,6 @@
     justify-content:space-around;
     align-items: center;
     height: 6.5rem;
-    /*border: 2px solid rgb(252, 160, 74);*/
 }
 .items-barra li a{
     text-decoration: none;
@@ -115,22 +82,11 @@
     text-align: center;
 }
 
-/*footer estilo INDEX Y PAGESbackground-color: rgb(235, 235, 235);*/
-/*.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0 1rem 0;
-    
-}
+/*footer estilo INDEX Y PAGES*/
 
 .footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}*/
+    margin-top: 4rem;
+}
 .nombre{
     color: rgb(207, 98, 11);
     font-size: 18px;
@@ -219,6 +175,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 4rem;
     }
     .div-parrafo{
         display: flex;
@@ -285,6 +242,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;  
+        margin-top: 4rem;
     }
     .div-parrafo{
         display: flex;
@@ -313,10 +271,6 @@
     .items-barra li a:hover{
         color: rgb(207, 98, 11);
     } 
-    /*.main{
-        height: 300px;
-        margin-top: 50px;
-    }*/
     .h1{
         color: black;
         font-size: 65px;
@@ -349,6 +303,7 @@
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;  
+        margin-top: 4rem;
     }
     .div-parrafo{
         display: flex;
@@ -455,7 +410,7 @@
 .experiencia{
     width: 700px;
     height: 50px;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 .trabajo-cuatro{
     width: 700px;
@@ -758,124 +713,96 @@
 
   
 /*bazar*/
-.main-bazar{
+.divBazar{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6rem;
+    margin: 3rem 0 6rem 0;
 
 }
-.div-bazar{
+
+.sectionMatesParrafo{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-    gap: 4rem;
+    justify-content: space-between;
+
 }
 .divBazarParrafo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+    width: 23rem;
+    height: 20rem;
+    margin: 15rem 0 0 6rem;
 }
+
 .divBazarParrafo p{
-    color: black;
-    font-size: 25px;
+    color: rgb(207, 98, 11);
+    font-size: 35px;
     font-family: 'Syne', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    text-align: left;
 }
+
+.divMates{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 4rem 6rem 0 0;
+    gap: 4rem;
+}
+.carpincho{
+    border: solid 6px rgb(207, 98, 11);
+    border-radius: 12px;
+    padding: 1rem 0 0 1rem;
+}
+.chancho{
+    border: solid 6px rgb(207, 98, 11);
+    border-radius: 12px;
+    padding: 0 0 1rem 1rem;
+}
+
 .divBabyYoda{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 6rem 0 6rem 0;
-}
-.divYoda{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 6rem 0 6rem 4rem;
     gap: 4rem;
-    margin: 6rem 0 6rem 0;
+}
+.yoda2{
+    border: solid 6px rgb(207, 98, 11);
+    border-radius: 12px;
+    padding: 1rem 1rem 0 0;
+}
+.yoda3{
+    border: solid 6px rgb(207, 98, 11);
+    border-radius: 12px;
+    padding: 0 1rem 1rem 0;
 }
 .divYodaParrafo{
-    width: 30rem;
-    height: 20rem;
+    width: 35rem;
+    height: 50rem;
+    margin: 9rem 4rem 0 0;
 }
 .divYodaParrafo p{
-    color: black;
-    font-size: 25px;
+    color: rgb(207, 98, 11);
+    font-size: 35px;
     font-family: 'Syne', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    text-align: right;
 }
-.divPersonajes{
+
+.sectionYoda{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 
 }
 
 
 /*luminaria*/
 
-.main-luminaria{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 6rem;
-}
-
-
-.divLamparasParrafo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.divLamparasParrafo p{
-    color: black;
-    font-size: 25px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-}
-.divLamparas{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    margin-bottom: 6rem;
-}
-
-/*Moldes y Matrices*/
-
-.divCarousel{
-    margin-left: 7rem;
-
-}
-.parrafoCopa{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem 0 3rem 0;
-}
-/*.parrafoCopa{
-    width: 42rem;
-    height: 15rem;
-}*/
-.parrafoCopa p{
-    color: black;
-    font-size: 25px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-}
-.divTenedores{
+.divLuminaria{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -883,23 +810,160 @@
     margin: 3rem 0 6rem 0;
 }
 
-.parrafoMatriz{
+.sectionTexto1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divLamparas1{
+    margin: 4rem 0 4rem 6rem;
+}
+.lamp4{
+    border: solid 6px rgb(207, 98, 11);
+    border-radius: 12px;
+    padding: 0 1rem 1rem 0;
+}
+.divTexto1{
+    width: 30rem;
+    height: 30rem;
+    margin: 4rem 6rem 4rem 0;
+}
+h3{
+    color: rgb(207, 98, 11);
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: right;
+}
+.divTexto1 p{
+    color: rgb(207, 98, 11);
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: right;
+}
+
+
+
+.sectionTexto2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divTexto2{
+    width: 30rem;
+    height: 30rem;
+    margin: 8rem 0 4rem 6rem;
+}
+.divTexto2 P{
+    color: rgb(207, 98, 11);
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: left;
+}
+.divLamparas2{
+    margin: 4rem 6rem 4rem 0;
+}
+.lamp3{
+    border: solid 6px rgb(207, 98, 11);
+    border-radius: 12px;
+    padding: 1rem 0 0 1rem;
+}
+.sectionTexto3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.divLamparas3{
+    margin: 8rem 0 6rem 6rem;
+}
+.lamparas3{
+    border: solid 6px rgb(207, 98, 11);
+    border-radius: 12px;
+    padding: 0 1rem 1rem 0;
+}
+.divTexto3{
+    width: 34rem;
+    height: 30rem;
+    margin: 4rem 6rem 6rem 0;
+}
+.divTexto3 p{
+    color: rgb(207, 98, 11);
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: right;
+}
+
+/*Moldes y Matrices*/
+
+.divTenedores{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 3rem 0 6rem 0;
+}
+.sectionMatriz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.parrafoMatriz{
+    width: 23rem;
+    height: 20rem;
+    margin: 12rem 0 0 6rem;
 }
 .parrafoMatriz p{
     color: black;
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Syne', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
 }
 .divMatriz{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 6rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 4rem 6rem 0 0;
     gap: 4rem;
+}
+.tenedor1{
+    border: solid 6px black;
+    border-radius: 12px;
+    padding: 1rem 0 0 1rem;
+}
+.tenedor2{
+    border: solid 6px black;
+    border-radius: 12px;
+    padding: 0 0 1rem 1rem;
+}
+.divCarousel{
+    margin: 3rem 0 3rem 7rem;
+}
+
+.sectionCopa{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.divCarousel{
+    border: solid 6px black;
+    border-radius: 12px;
+    padding: 6px;
+}
+.parrafoCopa{
+    width: 55rem;
+    height: 18rem;
+    margin: 3rem 7rem 3rem 0;
+}
+
+.parrafoCopa p{
+    color: black;
+    font-size: 35px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: right;
 }

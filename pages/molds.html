@@ -22,6 +22,9 @@
 <!--iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+<!--css AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!--CSS-->    
     <link rel="stylesheet" href="../css/style.css">
 
@@ -33,7 +36,7 @@
     <div class="container__general">
 
 <!--header-->
-        <header class=" header ">
+        <header class="header">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand logo" href="../index.html"><img src="../img/logoweb1.svg" alt="Federico Amigo" width="60" height="60"></a>
@@ -70,16 +73,18 @@
             </div>
         </main>
 
-        <section>
-            <div class="parrafoMatriz">
-                <p>Matriz para tenedores descartables</p>
-            </div>
 
+
+        <section class="sectionMatriz">
+            <div data-aos="fade-right" class="parrafoMatriz">
+                <p>REALIZACION, DISEÑO Y DESARROLLO DE MOLDE DE INYECCION DE 12 CAVIDADES PARA TENEDORES DESCARTABLES.</p>
+            </div>
             <div class="divMatriz">
-                <img src="../img/tenedor1.jpg" alt="">
-                <img src="../img/tenedor2.jpg" alt="">
+                <img class="tenedor1" src="../img/tenedor1.jpg" alt="">
+                <img class="tenedor2" src="../img/tenedor2.jpg" alt="">
             </div>
         </section>
+
 
         <section>
                 <div id="carouselExampleDark" class="carousel carousel-dark slide col-lg-10 col-md-6 col-12 divCarousel" data-bs-ride="carousel">
@@ -106,13 +111,12 @@
                 </div>
         </section>
         
-        <section>
-                <div class="parrafoCopa">
-                    <p>Proyecto realizado para una empresa Uruguaya. Planos y matriz para copas menstruales.</p>
-                </div>
+
+        <section class="sectionCopa">
+            <div data-aos="fade-left" class="parrafoCopa">
+                <p>PROYECTO REALIZADO PARA EMPRESA URUGUAYA. PLANOS Y MOLDE DE COMPRESION PARA COPAS MENSTRUALES.</p>
+            </div>
         </section>
-
-
 
 
 
@@ -133,13 +137,20 @@
                             <li class="instagram"><a href="https://www.instagram.com/fede.amigo/?hl=es-la" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </nav>
+                    <div>
+                        <p>TODOS LOS DERECHOS RESERVADOS | IVIDS@GMAIL.COM</p>
+                    </div>
                 </div>
             </div>
     
         </footer>
 
 
-
+<!--SCRIPT AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 <!--SCRIPTS BS-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
