@@ -1007,12 +1007,7 @@ h3{
         font-size: 30px;
     }
     /*.container__general{
-        padding-right: -1.5px;
-        margin-right: -3px;
-    }
-    .footer{
-        padding-right: -1.5px;
-        margin-right: -3px;
+        width: 100%;
     }*/
 
 }
@@ -1021,16 +1016,306 @@ h3{
 /*@media para sm*/
 
 @media (min-width: 577px) and (max-width: 767px) {
+    .img1, .img2, .img4{
+        display: none;
+    }
+    .divLuminaria{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 2rem 0;
+    }
+    .img3{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        background-color: rgb(178, 168, 159);
+    
+    }
+
+    .sectionTexto1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .divLamparas1{
+        margin: 2rem 2rem 2rem 2rem;
+    }
+
+    .img5, .img6, .img8{
+        display: none;
+    }
+    .img7{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: rgb(207, 98, 11);
+    }
+    
+    .divTexto1{
+        width: 18.5rem;
+        height: 10.5rem;
+    }
+    h3{
+        color: rgb(207, 98, 11);
+        font-size: 20px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: right;
+    }
+    .divTexto1 p{
+        color: rgb(207, 98, 11);
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: right;
+    }
+    .img9, .img10, .img12{
+        display: none;
+    }
+    .img11{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: rgb(207, 98, 11);
+    }
+    .sectionTexto2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    .divTexto2{
+        width: 12.5rem;
+        height: 15.5rem;
+    }
+    .divTexto2 P{
+        color: rgb(207, 98, 11);
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: left;
+    
+        
+    }
+    .divLamparas2{
+        margin: 0 2rem 0 2rem;
+    }
+
+    .img13, .img14, .img16{
+        display: none;
+    }
+
+    .sectionTexto3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .divLamparas3{
+        margin: 0 2rem 2rem 2rem;
+    }
+    .img13{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: rgb(207, 98, 11);
+    }
+    .divTexto3{
+        width: 22rem;
+        height: 6rem;
+        margin: 2rem 2rem 2rem 2rem;
+        
+    }
+    .divTexto3 p{
+        color: rgb(207, 98, 11);
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: right;
+    }
+
+    .divArrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 3rem;
+    }
+    .arrow{
+        color: rgb(207, 98, 11);
+        font-size: 30px;
+    
+    }
+    .arrow i:hover{
+        color: black;
+        font-size: 30px;
+    }
+    /*.container__general{
+        width: 100%;
+    }*/
 
 }
+
 
 /*------------------------------*/
 /*@media para tablet*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .img1, .img3, .img2{
+        display: none;
+    }
+    .divLuminaria{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 2rem 0;
+    }
+    .img4{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        background-color: rgb(178, 168, 159);
+    
+    }
+
+    .sectionTexto1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .divLamparas1{
+        margin: 2rem 2rem 5rem 2rem;
+    }
+
+    .img5, .img7, .img6{
+        display: none;
+    }
+    .img8{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: rgb(207, 98, 11);
+    }
+    
+    .divTexto1{
+        width: 15.5rem;
+        height: 20.5rem;
+    }
+    h3{
+        color: rgb(207, 98, 11);
+        font-size: 20px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: right;
+    }
+    .divTexto1 p{
+        color: rgb(207, 98, 11);
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: right;
+    }
+    .img9, .img11, .img10{
+        display: none;
+    }
+    .img12{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: rgb(207, 98, 11);
+    }
+    .sectionTexto2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .divTexto2{
+        width: 17rem;
+        height: 15.5rem;
+    }
+    .divTexto2 P{
+        color: rgb(207, 98, 11);
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: left;
+    
+        
+    }
+    .divLamparas2{
+        margin: 0 2rem 0 2rem;
+    }
+
+    .img13, .img15, .img14{
+        display: none;
+    }
+
+    .sectionTexto3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    
+    .divLamparas3{
+        margin: 0 2rem 2rem 2rem;
+    }
+    .img16{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: rgb(207, 98, 11);
+    }
+    .divTexto3{
+        width: 22rem;
+        height: 6rem;
+        margin: 2rem 2rem 2rem 2rem;
+        
+    }
+    .divTexto3 p{
+        color: rgb(207, 98, 11);
+        font-size: 18px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        text-align: right;
+    }
+
+    .divArrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 3rem;
+    }
+    .arrow{
+        color: rgb(207, 98, 11);
+        font-size: 30px;
+    
+    }
+    .arrow i:hover{
+        color: black;
+        font-size: 30px;
+    }
+    /*.container__general{
+        width: 100%;
+    }*/
 
 }
-  
+
 /*Moldes y Matrices*/
 
 .divTenedores{
