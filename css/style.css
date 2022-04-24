@@ -1317,7 +1317,9 @@ h3{
 }
 
 /*Moldes y Matrices*/
-
+.img18, .img19, .img20{
+    display: none;
+}
 .divTenedores{
     display: flex;
     flex-direction: row;
@@ -1329,6 +1331,10 @@ h3{
     border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
     background-color: rgb(178, 168, 159);
+}
+
+.img22, .img23, .img24, .img26, .img27, .img28{
+    display: none;
 }
 .sectionMatriz{
     display: flex;
@@ -1398,6 +1404,92 @@ h3{
 /*------------------------------*/
 /*@media para mobile*/
 @media (max-width: 576px) {
+    .img17, .img19, .img20{
+        display: none;
+    }
+    .divTenedores{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 2rem 0;
+    }
+    .img18{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        background-color: rgb(178, 168, 159);
+    }
+
+    .img21, .img23, .img24, .img25, .img27, .img28{
+        display: none;
+    }
+
+    .sectionMatriz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    .parrafoMatriz{
+        width: 21.5rem;
+        height: 7rem;
+        margin-top: 2rem;
+    }
+    .parrafoMatriz p{
+        color: black;
+        font-size: 15px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+    }
+    .divMatriz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+    .img22{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 1rem 0 0 1rem;
+        background-color: black;
+    }
+    .img26{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: black;
+    }
+    .divCarousel{
+        margin: 6rem 0 2rem 0;
+    }
+    
+    .sectionCopa{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .divCarousel{
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 0 1rem 1rem;
+        background-color: black;
+    }
+    .parrafoCopa{
+        width: 20rem;
+        height: 5rem;
+        margin: 2rem 0 3rem 0;
+    }
+    
+    .parrafoCopa p{
+        color: black;
+        font-size: 15px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: right;
+    }
 
 }
 
@@ -1405,6 +1497,92 @@ h3{
 /*@media para sm*/
 
 @media (min-width: 577px) and (max-width: 767px) {
+    .img17, .img19, .img20{
+        display: none;
+    }
+    .divTenedores{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 2rem 0;
+    }
+    .img18{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        background-color: rgb(178, 168, 159);
+    }
+
+    .img21, .img23, .img24, .img25, .img27, .img28{
+        display: none;
+    }
+
+    .sectionMatriz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    .parrafoMatriz{
+        width: 21.5rem;
+        height: 7rem;
+        margin-top: 2rem;
+    }
+    .parrafoMatriz p{
+        color: black;
+        font-size: 15px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+    }
+    .divMatriz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+    .img22{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 1rem 0 0 1rem;
+        background-color: black;
+    }
+    .img26{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: black;
+    }
+    .divCarousel{
+        margin: 6rem 0 2rem 0;
+    }
+    
+    .sectionCopa{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .divCarousel{
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 0 1rem 1rem;
+        background-color: black;
+    }
+    .parrafoCopa{
+        width: 20rem;
+        height: 5rem;
+        margin: 2rem 0 3rem 0;
+    }
+    
+    .parrafoCopa p{
+        color: black;
+        font-size: 15px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: right;
+    }
 
 }
 
@@ -1412,6 +1590,92 @@ h3{
 /*@media para tablet*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .img17, .img19, .img20{
+        display: none;
+    }
+    .divTenedores{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 2rem 0;
+    }
+    .img18{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        background-color: rgb(178, 168, 159);
+    }
+
+    .img21, .img23, .img24, .img25, .img27, .img28{
+        display: none;
+    }
+
+    .sectionMatriz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    .parrafoMatriz{
+        width: 21.5rem;
+        height: 7rem;
+        margin-top: 2rem;
+    }
+    .parrafoMatriz p{
+        color: black;
+        font-size: 15px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+    }
+    .divMatriz{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+    .img22{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 1rem 0 0 1rem;
+        background-color: black;
+    }
+    .img26{
+        display: block;
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 1rem 1rem 0;
+        background-color: black;
+    }
+    .divCarousel{
+        margin: 6rem 0 2rem 0;
+    }
+    
+    .sectionCopa{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .divCarousel{
+        border: solid 1px rgb(178, 168, 159);
+        border-radius: 12px;
+        padding: 0 0 1rem 1rem;
+        background-color: black;
+    }
+    .parrafoCopa{
+        width: 20rem;
+        height: 5rem;
+        margin: 2rem 0 3rem 0;
+    }
+    
+    .parrafoCopa p{
+        color: black;
+        font-size: 15px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        text-align: right;
+    }
     
 }
 
