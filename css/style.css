@@ -289,7 +289,7 @@
 /*------------------------------*/
 /*@media para tablet*/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1025px) {
     .items-barra li a:hover{
         color: rgb(207, 98, 11);
     } 
@@ -661,7 +661,7 @@
 
 /*@media para tablet*/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1025px) {
     .items-barra li a:hover{
         color: rgb(207, 98, 11);
     }
@@ -763,7 +763,7 @@
     display: none;
 }
 .lamp6{
-    border: solid 1px rgb(178, 168, 159);
+    border: solid 0.5px rgb(178, 168, 159);
     border-radius: 12px;
     background-color: rgb(178, 168, 159);
 }
@@ -777,7 +777,7 @@
     justify-content: space-around;
 }
 .divLamparas1{
-    margin: 4rem 0 4rem 6rem;
+    margin: 4rem 0 4rem 2rem;
 }
 .lamp4{
     border: solid 1px rgb(178, 168, 159);
@@ -788,18 +788,18 @@
 .divTexto1{
     width: 30rem;
     height: 30rem;
-    margin: 4rem 6rem 4rem 0;
+    margin: 4rem 2rem 4rem 0;
 }
 h3{
     color: rgb(207, 98, 11);
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     text-align: right;
 }
 .divTexto1 p{
     color: rgb(207, 98, 11);
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     text-align: right;
@@ -817,18 +817,18 @@ h3{
 .divTexto2{
     width: 30rem;
     height: 30rem;
-    margin: 8rem 0 4rem 6rem;
+    margin: 8rem 0 4rem 2rem;
 }
 .divTexto2 P{
     color: rgb(207, 98, 11);
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     text-align: left;
     
 }
 .divLamparas2{
-    margin: 4rem 6rem 4rem 0;
+    margin: 4rem 2rem 4rem 0;
 }
 .lamp3{
     border: solid 1px rgb(178, 168, 159);
@@ -848,7 +848,7 @@ h3{
 }
 
 .divLamparas3{
-    margin: 8rem 0 6rem 6rem;
+    margin: 8rem 0 6rem 2rem;
 }
 .lamparas3{
     border: solid 1px rgb(178, 168, 159);
@@ -857,14 +857,14 @@ h3{
     background-color: rgb(207, 98, 11);
 }
 .divTexto3{
-    width: 34rem;
+    width: 30rem;
     height: 31rem;
-    margin: 4rem 6rem 6rem 0;
+    margin: 4rem 2rem 3rem 0;
     
 }
 .divTexto3 p{
     color: rgb(207, 98, 11);
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     text-align: right;
@@ -885,7 +885,7 @@ h3{
     }
     .img2{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     
@@ -1010,9 +1010,7 @@ h3{
         color: black;
         font-size: 30px;
     }
-    /*.container__general{
-        width: 100%;
-    }*/
+    
 
 }
 
@@ -1032,7 +1030,7 @@ h3{
     }
     .img3{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     
@@ -1137,7 +1135,7 @@ h3{
     .divTexto3{
         width: 22rem;
         height: 6rem;
-        margin: 2rem 2rem 2rem 2rem;
+        margin: 2rem 2rem 3rem 2rem;
         
     }
     .divTexto3 p{
@@ -1170,7 +1168,7 @@ h3{
 /*------------------------------*/
 /*@media para tablet*/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1025px) {
     .img1, .img3, .img2{
         display: none;
     }
@@ -1183,7 +1181,7 @@ h3{
     }
     .img4{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     
@@ -1290,7 +1288,7 @@ h3{
     .divTexto3{
         width: 22rem;
         height: 6rem;
-        margin: 2rem 2rem 2rem 2rem;
+        margin: 2rem 2rem 3rem 2rem;
         
     }
     .divTexto3 p{
@@ -1334,7 +1332,7 @@ h3{
     margin: 3rem 0 6rem 0;
 }
 .tenedores{
-    border: solid 1px rgb(178, 168, 159);
+    border: solid 0.5px rgb(178, 168, 159);
     border-radius: 12px;
     background-color: rgb(178, 168, 159);
 }
@@ -1347,16 +1345,17 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 6rem;
 }
 .parrafoMatriz{
-    width: 23rem;
-    height: 20rem;
-    margin: 12rem 0 0 6rem;
+    width: 28rem;
+    height: 33rem;
+    margin: 3rem 0 0 2rem;
 }
 .parrafoMatriz p{
     color: black;
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
 }
@@ -1364,7 +1363,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin: 4rem 6rem 0 0;
+    margin: 4rem 2rem 0 0;
     gap: 4rem;
 }
 .tenedor1{
@@ -1382,7 +1381,7 @@ h3{
 
 /*section dos*/
 .divCarousel{
-    margin: 3rem 0 3rem 7rem;
+    margin: 3rem 0 3rem 5rem;
 }
 
 .sectionCopa{
@@ -1393,19 +1392,19 @@ h3{
 .divCarousel{
     border: solid 1px rgb(178, 168, 159);
     border-radius: 12px;
-    padding: 0 0 1rem 1rem;
+    padding: 0 0 1rem 0;
     background-color: black;
 }
 /*section TRES*/
 .parrafoCopa{
-    width: 55rem;
+    width: 40rem;
     height: 18rem;
     margin: 3rem 7rem 3rem 0;
 }
 
 .parrafoCopa p{
     color: black;
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     text-align: right;
@@ -1426,7 +1425,7 @@ h3{
     }
     .img18{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
@@ -1488,7 +1487,7 @@ h3{
     .divCarousel{
         border: solid 1px rgb(178, 168, 159);
         border-radius: 12px;
-        padding: 0 0 1rem 1rem;
+        padding: 0 0 1rem 0;
         background-color: black;
     }
     /*section TRES*/
@@ -1524,7 +1523,7 @@ h3{
     }
     .img19{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
@@ -1590,7 +1589,7 @@ h3{
     .divCarousel{
         border: solid 1px rgb(178, 168, 159);
         border-radius: 12px;
-        padding: 0 0 1rem 1rem;
+        padding: 0 0 1rem 0;
         background-color: black;
     }
     /*section TRES*/
@@ -1613,7 +1612,7 @@ h3{
 /*------------------------------*/
 /*@media para tablet*/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1025px) {
     .img17, .img19, .img18{
         display: none;
     }
@@ -1626,7 +1625,7 @@ h3{
     }
     .img20{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
@@ -1659,23 +1658,24 @@ h3{
     }
     .divMatriz{
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 4rem;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
         margin: 2rem 0.5rem 0 0;
     }
     .img24{
         display: block;
         border: solid 1px rgb(178, 168, 159);
         border-radius: 12px;
-        padding: 1rem 0 0 1rem;
+        padding: 1rem 0 0 0;
         background-color: black;
     }
     .img28{
         display: block;
         border: solid 1px rgb(178, 168, 159);
         border-radius: 12px;
-        padding: 0 1rem 1rem 0;
+        padding: 0 0 1rem 0;
         background-color: black;
     }
     /*section dos*/
@@ -1691,7 +1691,7 @@ h3{
     .divCarousel{
         border: solid 1px rgb(178, 168, 159);
         border-radius: 12px;
-        padding: 0 0 1rem 1rem;
+        padding: 0 0 1rem 0;
         background-color: black;
     }
 
@@ -1727,7 +1727,7 @@ h3{
 
 }
 .FondoMates2{
-    border: solid 1px rgb(178, 168, 159);
+    border: solid 0.5px rgb(178, 168, 159);
     border-radius: 12px;
     background-color: rgb(178, 168, 159);
 }
@@ -1745,12 +1745,12 @@ h3{
 .divBazarParrafo{
     width: 23rem;
     height: 20rem;
-    margin: 15rem 0 0 6rem;
+    margin: 15rem 0 0 2rem;
 }
 
 .divBazarParrafo p{
     color: rgb(207, 98, 11);
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     text-align: left;
@@ -1761,8 +1761,8 @@ h3{
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 4rem 6rem 0 0;
-    gap: 4rem;
+    margin: 4rem 2rem 0 0;
+    gap: 3rem;
 }
 .carpincho{
     border: solid 1px rgb(178, 168, 159);
@@ -1786,7 +1786,7 @@ h3{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 6rem 0 6rem 4rem;
+    margin: 6rem 0 6rem 2rem;
     gap: 4rem;
 }
 .yoda2{
@@ -1804,11 +1804,11 @@ h3{
 .divYodaParrafo{
     width: 35rem;
     height: 50rem;
-    margin: 9rem 4rem 0 0;
+    margin: 9rem 2rem 0 0;
 }
 .divYodaParrafo p{
     color: rgb(207, 98, 11);
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Syne', sans-serif;
     font-weight: 800;
     text-align: right;
@@ -1818,6 +1818,7 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 3rem;
 
 }
 
@@ -1837,7 +1838,7 @@ h3{
     }
     .img30{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
@@ -1954,7 +1955,7 @@ h3{
     }
     .img31{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
@@ -1986,7 +1987,7 @@ h3{
     
     .divMates{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 2rem 0.5rem 0 0.5rem;
@@ -2010,12 +2011,19 @@ h3{
     .img41, .img42, .img44, .img45, .img46, .img48{
         display: none;
     }
+    .sectionYoda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
     .divBabyYoda{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        margin: 6rem 0 2rem 1rem;
+        margin: 6rem 0 2rem 0;
     }
     .img43{
         display: block;
@@ -2044,19 +2052,13 @@ h3{
         text-align: right;
     }
     
-    .sectionYoda{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     
-    }
 }
 
 /*------------------------------*/
 /*@media para tablet*/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1025px) {
     .img29, .img30, .img31{
         display: none;
     }
@@ -2070,7 +2072,7 @@ h3{
     }
     .img32{
         display: block;
-        border: solid 1px rgb(178, 168, 159);
+        border: solid 0.5px rgb(178, 168, 159);
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
@@ -2105,21 +2107,21 @@ h3{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 3rem 0.5rem 0 0.5rem;
-        gap: 2rem;
+        margin: 3rem 0 0.5rem 0;
+        gap: 1rem;
     }
     .img36{
         display: block;
         border: solid 1px rgb(178, 168, 159);
         border-radius: 12px;
-        padding: 1rem 0 0 1rem;
+        padding: 1rem 0 0 0;
         background-color: rgb(207, 98, 11);
     }
     .img40{
         display: block;
         border: solid 1px rgb(178, 168, 159);
         border-radius: 12px;
-        padding: 0 1rem 1rem 0;
+        padding: 0 0 1rem 0;
         background-color: rgb(207, 98, 11);
     }
     /*section dos*/
