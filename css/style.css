@@ -135,7 +135,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0 0 1rem;
+    padding: 1rem 0 0 1rem;
 }
 .divDerechos p{
     color: black;
@@ -347,7 +347,7 @@
 }
 
 
-/*section pages*/
+/*SECTION PAGES*/
 .divArrow{
     display: flex;
     flex-direction: row;
@@ -363,6 +363,8 @@
     color: black;
     font-size: 40px;
 }
+
+
 /*------------------------------*/
 /*main estilo ABOUT*/
 .mainAbout{
@@ -749,7 +751,7 @@
 }
 
  /*LUMINARIA*/
-
+/*MAIN*/
 .divLuminaria{
     display: flex;
     flex-direction: row;
@@ -768,6 +770,7 @@
 .img6, .img7, .img8{
     display: none;
 }
+/*section UNO*/
 .sectionTexto1{
     display: flex;
     flex-direction: row;
@@ -801,6 +804,8 @@ h3{
     font-weight: 800;
     text-align: right;
 }
+/*section dos*/
+
 .img10, .img11, .img12{
     display: none;
 }
@@ -831,6 +836,8 @@ h3{
     padding: 1rem 0 0 1rem;
     background-color: rgb(207, 98, 11);
 }
+/*section TRES*/
+
 .img14, .img15, .img16{
     display: none;
 }
@@ -883,15 +890,15 @@ h3{
         background-color: rgb(178, 168, 159);
     
     }
-
+/*section UNO*/
     .sectionTexto1{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     .divLamparas1{
-        margin: 2rem 2rem 2rem 2rem;
+        margin: 2rem 0 2rem 0.5rem;
     }
 
     .img5, .img7, .img8{
@@ -904,12 +911,11 @@ h3{
         padding: 0 1rem 1rem 0;
         background-color: rgb(207, 98, 11);
     }
-    .fade-right{
-        display: none;
-    }
     .divTexto1{
-        width: 9rem;
-        height: 15.5rem;
+        width: 15rem;
+        height: 9.5rem;
+        margin: 0.5rem 0 1rem 0;
+
     }
     h3{
         color: rgb(207, 98, 11);
@@ -925,25 +931,20 @@ h3{
         font-weight: 700;
         text-align: right;
     }
-    .img9, .img11, .img12{
+    /*section dos*/
+
+    .img9, .img11, .img12, .img10{
         display: none;
     }
-    .img10{
-        display: block;
-        border: solid 1px rgb(178, 168, 159);
-        border-radius: 12px;
-        padding: 0 1rem 1rem 0;
-        background-color: rgb(207, 98, 11);
-    }
-    .sectionTexto2{
+    
+    .divTexto2{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-    }
-    .divTexto2{
-        width: 9rem;
-        height: 15.5rem;
+        width: 15rem;
+        height: 10rem;
+        margin: 1rem 0 2rem 2rem;
     }
     .divTexto2 P{
         color: rgb(207, 98, 11);
@@ -955,8 +956,9 @@ h3{
         
     }
     .divLamparas2{
-        margin: 0 2rem 0 2rem;
+        margin: 0 0 2rem 0;
     }
+/*section TRES*/
 
     .img13, .img15, .img16{
         display: none;
@@ -980,8 +982,8 @@ h3{
         background-color: rgb(207, 98, 11);
     }
     .divTexto3{
-        width: 22rem;
-        height: 6rem;
+        width: 13rem;
+        height: 10rem;
         margin: 2rem 2rem 2rem 2rem;
         
     }
@@ -1035,7 +1037,7 @@ h3{
         background-color: rgb(178, 168, 159);
     
     }
-
+/*section UNO*/
     .sectionTexto1{
         display: flex;
         flex-direction: row;
@@ -1075,6 +1077,7 @@ h3{
         font-weight: 700;
         text-align: right;
     }
+    /*section dos*/
     .img9, .img10, .img12{
         display: none;
     }
@@ -1108,6 +1111,7 @@ h3{
     .divLamparas2{
         margin: 0 2rem 0 2rem;
     }
+/*section TRES*/
 
     .img13, .img14, .img16{
         display: none;
@@ -1159,9 +1163,6 @@ h3{
         color: black;
         font-size: 30px;
     }
-    /*.container__general{
-        width: 100%;
-    }*/
 
 }
 
@@ -1187,7 +1188,7 @@ h3{
         background-color: rgb(178, 168, 159);
     
     }
-
+/*section UNO*/
     .sectionTexto1{
         display: flex;
         flex-direction: row;
@@ -1227,6 +1228,8 @@ h3{
         font-weight: 800;
         text-align: right;
     }
+
+/*section dos*/
     .img9, .img11, .img10{
         display: none;
     }
@@ -1260,6 +1263,7 @@ h3{
     .divLamparas2{
         margin: 0 2rem 0 2rem;
     }
+/*section TRES*/
 
     .img13, .img15, .img14{
         display: none;
@@ -1312,13 +1316,13 @@ h3{
         color: black;
         font-size: 30px;
     }
-    /*.container__general{
-        width: 100%;
-    }*/
 
 }
 
+
 /*Moldes y Matrices*/
+
+/*MAIN*/
 .img18, .img19, .img20{
     display: none;
 }
@@ -1338,6 +1342,7 @@ h3{
 .img22, .img23, .img24, .img26, .img27, .img28{
     display: none;
 }
+/*section UNO*/
 .sectionMatriz{
     display: flex;
     flex-direction: row;
@@ -1374,6 +1379,8 @@ h3{
     padding: 0 0 1rem 1rem;
     background-color: black;
 }
+
+/*section dos*/
 .divCarousel{
     margin: 3rem 0 3rem 7rem;
 }
@@ -1389,6 +1396,7 @@ h3{
     padding: 0 0 1rem 1rem;
     background-color: black;
 }
+/*section TRES*/
 .parrafoCopa{
     width: 55rem;
     height: 18rem;
@@ -1426,7 +1434,7 @@ h3{
     .img21, .img23, .img24, .img25, .img27, .img28{
         display: none;
     }
-
+/*section UNO*/
     .sectionMatriz{
         display: flex;
         flex-direction: column;
@@ -1447,10 +1455,10 @@ h3{
     }
     .divMatriz{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 2rem 2rem 0 2rem;
+        margin: 1rem 2rem 0 2rem;
         gap: 1rem;
     }
     .img22{
@@ -1467,6 +1475,7 @@ h3{
         padding: 0 1rem 1rem 0;
         background-color: black;
     }
+    /*section dos*/
     .divCarousel{
         margin: 6rem 0 2rem 0;
     }
@@ -1482,10 +1491,11 @@ h3{
         padding: 0 0 1rem 1rem;
         background-color: black;
     }
+    /*section TRES*/
     .parrafoCopa{
         width: 20rem;
         height: 5rem;
-        margin: 2rem 0 3rem 0;
+        margin: 2rem 1rem 3rem 0;
     }
     
     .parrafoCopa p{
@@ -1522,7 +1532,7 @@ h3{
     .img21, .img22, .img24, .img25, .img26, .img28{
         display: none;
     }
-
+/*section UNO*/
     .sectionMatriz{
         display: flex;
         flex-direction: column;
@@ -1567,6 +1577,7 @@ h3{
         padding: 0 1rem 1rem 0;
         background-color: black;
     }
+    /*section dos*/
     .divCarousel{
         margin: 6rem 0 2rem 0;
     }
@@ -1582,6 +1593,7 @@ h3{
         padding: 0 0 1rem 1rem;
         background-color: black;
     }
+    /*section TRES*/
     .parrafoCopa{
         width: 26rem;
         height: 8rem;
@@ -1622,7 +1634,7 @@ h3{
     .img21, .img23, .img22, .img25, .img27, .img26{
         display: none;
     }
-
+/*section UNO*/
     .sectionMatriz{
         display: flex;
         flex-direction: column;
@@ -1666,6 +1678,7 @@ h3{
         padding: 0 1rem 1rem 0;
         background-color: black;
     }
+    /*section dos*/
     .divCarousel{
         margin: 6rem 0 2rem 0;
     }
@@ -1681,6 +1694,8 @@ h3{
         padding: 0 0 1rem 1rem;
         background-color: black;
     }
+
+    /*section TRES*/
     .parrafoCopa{
         width: 42.5rem;
         height: 8rem;
@@ -1699,7 +1714,7 @@ h3{
 
 
 /*bazar*/
-
+/*MAIN*/
 .img30, .img31, .img32{
     display: none;
 }
@@ -1720,6 +1735,7 @@ h3{
 .img34, .img35, .img36, .img38, .img39, .img40{
     display: none;
 }
+/*section UNO*/
 .sectionMatesParrafo{
     display: flex;
     flex-direction: row;
@@ -1761,7 +1777,7 @@ h3{
     background-color: rgb(207, 98, 11);
 }
 
-
+/*section dos*/
 .img42, .img43, .img44, .img46, .img47, .img48{
     display: none;
 }
@@ -1816,7 +1832,7 @@ h3{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 3rem;
+        margin: 3rem 1.5rem 2rem 2rem;
     
     }
     .img30{
@@ -1825,7 +1841,7 @@ h3{
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
-
+/*section UNO*/
     .img33, .img35, .img36, .img37, .img39, .img40{
         display: none;
     }
@@ -1839,7 +1855,7 @@ h3{
     .divBazarParrafo{
         width: 19rem;
         height: 5rem;
-        margin: 0 0.5rem 1rem 0
+        margin: 1rem 0 1rem 0.5rem;
 
     }
     
@@ -1853,10 +1869,10 @@ h3{
     
     .divMates{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 2rem 2rem 0 2rem;
+        margin: 1rem 2rem 0 2rem;
         gap: 1rem;
     }
     .img34{
@@ -1873,7 +1889,7 @@ h3{
         padding: 0 1rem 1rem 0;
         background-color: rgb(207, 98, 11);
     }
-    
+    /*section dos*/
     .img41, .img43, .img44, .img45, .img47, .img48{
         display: none;
     }
@@ -1942,7 +1958,7 @@ h3{
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
-
+/*section UNO*/
     .img33, .img34, .img36, .img37, .img38, .img40{
         display: none;
     }
@@ -1990,7 +2006,7 @@ h3{
         padding: 0 1rem 1rem 0;
         background-color: rgb(207, 98, 11);
     }
-    
+    /*section dos*/
     .img41, .img42, .img44, .img45, .img46, .img48{
         display: none;
     }
@@ -2058,7 +2074,7 @@ h3{
         border-radius: 12px;
         background-color: rgb(178, 168, 159);
     }
-
+/*section UNO*/
     .img33, .img34, .img35, .img37, .img38, .img39{
         display: none;
     }
@@ -2106,7 +2122,7 @@ h3{
         padding: 0 1rem 1rem 0;
         background-color: rgb(207, 98, 11);
     }
-    
+    /*section dos*/
     .img41, .img42, .img43, .img45, .img46, .img47{
         display: none;
     }
